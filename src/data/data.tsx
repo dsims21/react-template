@@ -314,101 +314,68 @@ export const education: TimelineItem[] = [
 
 export const experience: TimelineItem[] = [
   {
-    date: 'March 2010 - Present',
+    date: 'August 2022 - June 2023',
     location: 'Starburst Data',
     title: 'Manager, Technical Account Management',
     content: (
       <p>
-        Describe work, special projects, notable achievements, what technologies you have been working with, and
-        anything else that would be useful for an employer to know.
+        Utilized advanced AI tools to enhance operational efficiency across multiple areas and drove innovation in system and process design. 
+        Managed significant customer accounts and led a high-performing team.
       </p>
     ),
   },
   {
-    date: 'March 2007 - February 2010',
+    date: 'August 2021 - August 2022',
     location: 'Starburst Data',
     title: 'Technical Account Manager',
     content: (
       <p>
-        Describe work, special projects, notable achievements, what technologies you have been working with, and
-        anything else that would be useful for an employer to know.
+        Acted as the primary liaison for significant customer accounts, developed data infrastructure strategies, and implemented scalable 
+        data solutions in large enterprise environments.
       </p>
     ),
   },
   {
-    date: 'March 2007 - February 2010',
+    date: 'December 2020 - August 2021',
     location: 'OpenMarket Inc.',
     title: 'Senior Technical Account Manager',
     content: (
       <p>
-        Describe work, special projects, notable achievements, what technologies you have been working with, and
-        anything else that would be useful for an employer to know.
+        Played a pivotal role in designing and implementing global text messaging platforms for the company's most significant account. 
+        Managed real-time global platform stability, handled time-sensitive SMS data, and developed data warehouse infrastructure.
       </p>
     ),
   },
   {
-    date: 'March 2007 - February 2010',
+    date: 'June 2013 - December 2020',
     location: 'Spearhead Capital Management, LLC',
     title: 'Owner, Quantitative Analyst, Financial Advisor',
     content: (
       <p>
-        Describe work, special projects, notable achievements, what technologies you have been working with, and
-        anything else that would be useful for an employer to know.
+        Managed a diverse role encompassing quantitative analysis, software engineering, data engineering, and financial advising. 
+        Developed various tools and strategies for data collection, storage, and analysis, contributing to the firm's financial decision-making.
       </p>
     ),
   },
   {
-    date: 'March 2007 - February 2010',
+    date: 'November 2013 - December 2018',
     location: 'Tableau Software',
     title: 'Manager, Software Engineering',
     content: (
       <p>
-        Describe work, special projects, notable achievements, what technologies you have been working with, and
-        anything else that would be useful for an employer to know.
+        Progressed through various roles in this leading business intelligence and data analytics software company. 
+        Led technical troubleshooting efforts for the world's largest analytics platforms and managed relationships with high-profile stakeholders.
       </p>
     ),
   },
   {
-    date: 'March 2007 - February 2010',
-    location: 'Tableau Software',
-    title: 'Manager, Technical Account Management',
-    content: (
-      <p>
-        Describe work, special projects, notable achievements, what technologies you have been working with, and
-        anything else that would be useful for an employer to know.
-      </p>
-    ),
-  },
-  {
-    date: 'March 2007 - February 2010',
-    location: 'Tableau Software',
-    title: 'Technical Account Manager',
-    content: (
-      <p>
-        Describe work, special projects, notable achievements, what technologies you have been working with, and
-        anything else that would be useful for an employer to know.
-      </p>
-    ),
-  },
-  {
-    date: 'March 2007 - February 2010',
-    location: 'Tableau Software',
-    title: 'Technical Support Engineer, Analytics, Desktop Client',
-    content: (
-      <p>
-        Describe work, special projects, notable achievements, what technologies you have been working with, and
-        anything else that would be useful for an employer to know.
-      </p>
-    ),
-  },
-  {
-    date: 'March 2007 - February 2010',
+    date: 'November 2007 - June 2013',
     location: 'Scottrade, Inc.',
     title: 'Stockbroker',
     content: (
       <p>
-        Describe work, special projects, notable achievements, what technologies you have been working with, and
-        anything else that would be useful for an employer to know.
+        Demonstrated expertise in financial regulations, securities, and ethical practices as a licensed stockbroker. 
+        Specialized in options trading, placing large trades for customers with a focus on speed and accuracy.
       </p>
     ),
   },
