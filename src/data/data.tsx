@@ -73,13 +73,10 @@ export const heroData: Hero = {
   description: (
     <>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
-        Hello! I'm <strong className="text-stone-100">Daniel Sims</strong>, a passionate technologist and manager based in <strong className="text-stone-100">Seattle</strong>. I'm currently seeking new opportunities where I can apply my robust skills in Technical Account Management and Data Engineering. My approach is always centered on people — whether it's nurturing a high-performing team, understanding client needs, or bridging gaps between technical and non-technical stakeholders.
+         I'm <strong className="text-stone-100">Daniel Sims</strong>, a tech enthusiast and an accomplished leader with a global footprint, currently based in <strong className="text-stone-100">Seattle</strong>. My technical acumen, coupled with a rapid learning ability and a keen interest in Artificial Intelligence, enables me to drive innovation in complex business environments.
       </p>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
-        Off the clock, I'm fascinated by <strong className="text-stone-100">Artificial Intelligence and Machine Learning</strong>, exploring the expansive universe of <strong className="text-stone-100">Virtual Reality</strong>, and immersing myself in different cultures through travel. I'm also a fan of electric scootering — it keeps my love for speed and efficiency alive! I believe these interests make me a more well-rounded individual, and I love bringing this diversity of thought to my work.
-      </p>
-      <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
-        I'm excited about the potential for new collaborations and shared success stories. Let's connect and create something impactful together.
+         Beyond work, I enjoy adventuring into the vast universe of Virtual Reality or riding my electric scooter.
       </p>
     </>
   ),
