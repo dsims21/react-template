@@ -100,7 +100,7 @@ export const heroData: Hero = {
  */
 export const aboutData: About = {
   profileImageSrc: profilepic,
-  description: `As a programmer and tech leader, I specialize in data and AI, with a track record at companies like Starburst Data and Tableau. My passion for understanding systems and managing diverse teams is matched by my love for learning and making lifelong friends. If you appreciate a blend of technical acumen, collaboration, and a personal touch, let's connect.`,
+  description: `As a programmer and tech leader, I specialize in data and AI, with a track record at companies like Starburst Data and Tableau. My passion for understanding systems and managing diverse teams is matched by my love for learning and making lifelong friends. If you value a unique blend of technical proficiency, collaborative spirit, and an unwavering pursuit of excellence, I invite you to connect with me.`,
   aboutItems: [
     {label: 'Location', text: 'Duvall, WA', Icon: MapIcon},
     {label: 'Age', text: '39', Icon: CalendarIcon},
@@ -386,12 +386,12 @@ export const testimonial: TestimonialSection = {
   testimonials: [
     {
       name: 'Chris',
-      text: 'Daniel is among the smartest and most active managers I have had. He really challenged me to think about the way I work. Our team always performed consistently well because he was engaged with us.',
+      text: 'Daniel is among the smartest and most active managers I have had. He really challenged me to think about the way I work. Our team always performed consistently well because he was engaged with us. In doing so he brought us to the highest level of performance: creativity, which is something truly rare.',
       // image: 'https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/169.jpg',
     },
     {
       name: 'Alex',
-      text: 'It is not often you closely collaborate with someone whose talents span so many areas. Technical, analytical, tactical. That is just the start.',
+      text: 'It is not often you closely collaborate with someone whose talents span so many areas. Technical, analytical, tactical. That’s just the start.',
       // image: 'https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/14.jpg',
     },
     {
