@@ -170,15 +170,15 @@ export const skills: SkillGroup[] = [
     name: 'System Design',
     skills: [
       {
-        name: 'Tableau Server',
+        name: 'Distributed Systems',
         level: 9, // You mentioned designing a Tableau Server for 600 users
       },
       {
-        name: 'Data Lake',
+        name: 'Data Architecture',
         level: 8, // You mentioned designing a data lake at OpenMarket
       },
       {
-        name: 'Data Systems',
+        name: 'System Resiliance',
         level: 9,
       },
     ],
