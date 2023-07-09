@@ -9,7 +9,7 @@ import {
 } from '@heroicons/react/24/outline';
 
 import GithubIcon from '../components/Icon/GithubIcon';
-import InstagramIcon from '../components/Icon/InstagramIcon';
+// import InstagramIcon from '../components/Icon/InstagramIcon';
 import LinkedInIcon from '../components/Icon/LinkedInIcon';
 import StackOverflowIcon from '../components/Icon/StackOverflowIcon';
 import TwitterIcon from '../components/Icon/TwitterIcon';
@@ -44,8 +44,8 @@ import {
  * Page meta data
  */
 export const homePageMeta: HomepageMeta = {
-  title: 'React Resume Template',
-  description: "Example site built with Tim Baker's react resume template",
+  title: 'Daniel Sims',
+  description: "Daniel Sims' personal website",
 };
 
 /**
@@ -69,28 +69,27 @@ export type SectionId = typeof SectionId[keyof typeof SectionId];
  */
 export const heroData: Hero = {
   imageSrc: heroImage,
-  name: `I'm Tim Baker.`,
+  name: `Daniel Sims.`,
   description: (
     <>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
-        I'm a Victoria based <strong className="text-stone-100">Full Stack Software Engineer</strong>, currently working
-        at <strong className="text-stone-100">Instant Domains</strong> helping build a modern, mobile-first, domain
-        registrar and site builder.
+        Hello! I'm <strong className="text-stone-100">Daniel Sims</strong>, a passionate technologist and manager based in <strong className="text-stone-100">Seattle</strong>. I'm currently seeking new opportunities where I can apply my robust skills in Technical Account Management and Data Engineering. My approach is always centered on people — whether it's nurturing a high-performing team, understanding client needs, or bridging gaps between technical and non-technical stakeholders.
       </p>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
-        In my free time time, you can catch me training in <strong className="text-stone-100">Muay Thai</strong>,
-        plucking my <strong className="text-stone-100">banjo</strong>, or exploring beautiful{' '}
-        <strong className="text-stone-100">Vancouver Island</strong>.
+        Off the clock, I'm fascinated by <strong className="text-stone-100">Artificial Intelligence and Machine Learning</strong>, exploring the expansive universe of <strong className="text-stone-100">Virtual Reality</strong>, and immersing myself in different cultures through travel. I'm also a fan of electric scootering — it keeps my love for speed and efficiency alive! I believe these interests make me a more well-rounded individual, and I love bringing this diversity of thought to my work.
+      </p>
+      <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
+        I'm excited about the potential for new collaborations and shared success stories. Let's connect and create something impactful together.
       </p>
     </>
   ),
   actions: [
-    {
-      href: '/assets/resume.pdf',
-      text: 'Resume',
-      primary: true,
-      Icon: ArrowDownTrayIcon,
-    },
+    // {
+    //   href: '/assets/resume.pdf',
+    //   text: 'Resume',
+    //   primary: true,
+    //   Icon: ArrowDownTrayIcon,
+    // },
     {
       href: `#${SectionId.Contact}`,
       text: 'Contact',
@@ -104,16 +103,14 @@ export const heroData: Hero = {
  */
 export const aboutData: About = {
   profileImageSrc: profilepic,
-  description: `Use this bio section as your way of describing yourself and saying what you do, what technologies you like
-  to use or feel most comfortable with, describing your personality, or whatever else you feel like throwing
-  in.`,
+  description: `As a programmer and tech leader, I specialize in data and AI, with a track record at companies like Starburst Data and Tableau. My passion for understanding systems and managing diverse teams is matched by my love for learning and making lifelong friends. If you appreciate a blend of technical acumen, collaboration, and a personal touch, let's connect.`,
   aboutItems: [
-    {label: 'Location', text: 'Victoria, BC', Icon: MapIcon},
-    {label: 'Age', text: '29', Icon: CalendarIcon},
-    {label: 'Nationality', text: 'Canadian / Irish', Icon: FlagIcon},
-    {label: 'Interests', text: 'Motorcycles, Muay Thai, Banjos', Icon: SparklesIcon},
-    {label: 'Study', text: 'University of Victoria', Icon: AcademicCapIcon},
-    {label: 'Employment', text: 'Instant Domains, inc.', Icon: BuildingOffice2Icon},
+    {label: 'Location', text: 'Duvall, WA', Icon: MapIcon},
+    {label: 'Age', text: '39', Icon: CalendarIcon},
+    {label: 'Country', text: 'USA', Icon: FlagIcon},
+    {label: 'Interests', text: 'Artificial Intelligence, Virtual Reality', Icon: SparklesIcon},
+    {label: 'Education', text: 'University of Washington', Icon: AcademicCapIcon},
+    {label: 'Employment', text: 'Starburst Data, OpenMarket, Tableau', Icon: BuildingOffice2Icon},
   ],
 };
 
@@ -122,6 +119,91 @@ export const aboutData: About = {
  */
 export const skills: SkillGroup[] = [
   {
+    name: 'Leadership & Management',
+    skills: [
+      {
+        name: 'Team Management',
+        level: 9, // Based on your experience managing international teams
+      },
+      {
+        name: 'Diversity & Inclusion',
+        level: 9, // Based on your focus on diversity and building diverse teams
+      },
+      {
+        name: 'Customer Relations',
+        level: 9, // Based on your experience working with customers across multiple continents and at various hours
+      },
+    ],
+  },
+  {
+    name: 'Programming languages',
+    skills: [
+      {
+        name: 'Python',
+        level: 9, // Since you've worked with AI and data, I assume you're proficient in Python
+      },
+      {
+        name: 'Java',
+        level: 7, // Based on your experience with Java
+      },
+      {
+        name: 'C#',
+        level: 6,
+      },
+    ],
+  },
+  {
+    name: 'Data engineering',
+    skills: [
+      {
+        name: 'SQL',
+        level: 8,
+      },
+      {
+        name: 'ETL',
+        level: 8,
+      },
+      {
+        name: 'Data Warehousing',
+        level: 7,
+      },
+    ],
+  },
+  {
+    name: 'System Design',
+    skills: [
+      {
+        name: 'Tableau Server',
+        level: 9, // You mentioned designing a Tableau Server for 600 users
+      },
+      {
+        name: 'Data Lake',
+        level: 8, // You mentioned designing a data lake at OpenMarket
+      },
+      {
+        name: 'Data Systems',
+        level: 9,
+      },
+    ],
+  },
+  {
+    name: 'Customer Facing Skills',
+    skills: [
+      {
+        name: 'Relationship Management',
+        level: 9, // Based on your experience working with customers across multiple continents and at various hours
+      },
+      {
+        name: 'Escalation Handling',
+        level: 9, // Based on your experience successfully engaging the C-Level team to retain and build customer relationships
+      },
+      {
+        name: 'Product Feedback',
+        level: 9, // Based on your experience designing systems that meet customer needs and drive business decisions
+      },
+    ],
+  },
+  {
     name: 'Spoken languages',
     skills: [
       {
@@ -129,63 +211,12 @@ export const skills: SkillGroup[] = [
         level: 10,
       },
       {
+        name: 'Spanish',
+        level: 4,
+      },
+      {
         name: 'French',
         level: 4,
-      },
-      {
-        name: 'Spanish',
-        level: 3,
-      },
-    ],
-  },
-  {
-    name: 'Frontend development',
-    skills: [
-      {
-        name: 'React',
-        level: 9,
-      },
-      {
-        name: 'Typescript',
-        level: 7,
-      },
-      {
-        name: 'GraphQL',
-        level: 6,
-      },
-    ],
-  },
-  {
-    name: 'Backend development',
-    skills: [
-      {
-        name: 'Node.js',
-        level: 8,
-      },
-      {
-        name: 'Rust',
-        level: 5,
-      },
-      {
-        name: 'Golang',
-        level: 4,
-      },
-    ],
-  },
-  {
-    name: 'Mobile development',
-    skills: [
-      {
-        name: 'React Native',
-        level: 9,
-      },
-      {
-        name: 'Flutter',
-        level: 4,
-      },
-      {
-        name: 'Swift',
-        level: 3,
       },
     ],
   },
@@ -268,24 +299,24 @@ export const portfolioItems: PortfolioItem[] = [
  */
 export const education: TimelineItem[] = [
   {
-    date: 'April 2007',
-    location: 'Clown college',
-    title: 'Masters in Beer tasting',
-    content: <p>Describe your experience at school, what you learned, what useful skills you have acquired etc.</p>,
+    date: 'June 2015',
+    location: 'Univerity of Washington',
+    title: 'Bachelor of Arts in Business Administration',
+    content: <p>In my academic journey, I explored a broad spectrum of business subjects that have become a cornerstone in my tech-oriented career. From Business Finance to E-Marketing and International Trade, my foundational knowledge has been integral in navigating the dynamic landscape of the tech industry.</p>,
   },
   {
-    date: 'March 2003',
-    location: 'School of Business',
-    title: 'What did you study 101',
-    content: <p>Describe your experience at school, what you learned, what useful skills you have acquired etc.</p>,
+    date: 'June 2013',
+    location: 'Cascadia College',
+    title: 'Associate of Arts in Business Administration',
+    content: <p></p>,
   },
 ];
 
 export const experience: TimelineItem[] = [
   {
     date: 'March 2010 - Present',
-    location: 'Awesome Development Company',
-    title: 'Senior UX Engineer',
+    location: 'Starburst Data',
+    title: 'Manager, Technical Account Management',
     content: (
       <p>
         Describe work, special projects, notable achievements, what technologies you have been working with, and
@@ -295,8 +326,85 @@ export const experience: TimelineItem[] = [
   },
   {
     date: 'March 2007 - February 2010',
-    location: 'Garage Startup Studio',
-    title: 'Junior bug fixer',
+    location: 'Starburst Data',
+    title: 'Technical Account Manager',
+    content: (
+      <p>
+        Describe work, special projects, notable achievements, what technologies you have been working with, and
+        anything else that would be useful for an employer to know.
+      </p>
+    ),
+  },
+  {
+    date: 'March 2007 - February 2010',
+    location: 'OpenMarket Inc.',
+    title: 'Senior Technical Account Manager',
+    content: (
+      <p>
+        Describe work, special projects, notable achievements, what technologies you have been working with, and
+        anything else that would be useful for an employer to know.
+      </p>
+    ),
+  },
+  {
+    date: 'March 2007 - February 2010',
+    location: 'Spearhead Capital Management, LLC',
+    title: 'Owner, Quantitative Analyst, Financial Advisor',
+    content: (
+      <p>
+        Describe work, special projects, notable achievements, what technologies you have been working with, and
+        anything else that would be useful for an employer to know.
+      </p>
+    ),
+  },
+  {
+    date: 'March 2007 - February 2010',
+    location: 'Tableau Software',
+    title: 'Manager, Software Engineering',
+    content: (
+      <p>
+        Describe work, special projects, notable achievements, what technologies you have been working with, and
+        anything else that would be useful for an employer to know.
+      </p>
+    ),
+  },
+  {
+    date: 'March 2007 - February 2010',
+    location: 'Tableau Software',
+    title: 'Manager, Technical Account Management',
+    content: (
+      <p>
+        Describe work, special projects, notable achievements, what technologies you have been working with, and
+        anything else that would be useful for an employer to know.
+      </p>
+    ),
+  },
+  {
+    date: 'March 2007 - February 2010',
+    location: 'Tableau Software',
+    title: 'Technical Account Manager',
+    content: (
+      <p>
+        Describe work, special projects, notable achievements, what technologies you have been working with, and
+        anything else that would be useful for an employer to know.
+      </p>
+    ),
+  },
+  {
+    date: 'March 2007 - February 2010',
+    location: 'Tableau Software',
+    title: 'Technical Support Engineer, Analytics, Desktop Client',
+    content: (
+      <p>
+        Describe work, special projects, notable achievements, what technologies you have been working with, and
+        anything else that would be useful for an employer to know.
+      </p>
+    ),
+  },
+  {
+    date: 'March 2007 - February 2010',
+    location: 'Scottrade, Inc.',
+    title: 'Stockbroker',
     content: (
       <p>
         Describe work, special projects, notable achievements, what technologies you have been working with, and
@@ -313,18 +421,23 @@ export const testimonial: TestimonialSection = {
   imageSrc: testimonialImage,
   testimonials: [
     {
-      name: 'John Doe',
-      text: 'Use this as an opportunity to promote what it is like to work with you. High value testimonials include ones from current or past co-workers, managers, or from happy clients.',
+      name: 'Chris',
+      text: 'Daniel is among the smartest and most active managers I have had. He really challenged me to think about the way I work. Our team always performed consistently well because he was engaged with us.',
       image: 'https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/169.jpg',
     },
     {
-      name: 'Jane Doe',
-      text: 'Here you should write some nice things that someone has said about you. Encourage them to be specific and include important details (notes about a project you were on together, impressive quality produced, etc).',
+      name: 'Alex',
+      text: 'It is not often you closely collaborate with someone whose talents span so many areas. Technical, analytical, tactical. That is just the start.',
       image: 'https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/14.jpg',
     },
     {
-      name: 'Someone else',
-      text: 'Add several of these, and keep them as fresh as possible, but be sure to focus on quality testimonials with strong highlights of your skills/work ethic.',
+      name: 'Kevin',
+      text: 'Daniel is extremely reliable and trustworthy, and I knew that any project with him on it would be driven to completion and be successful. Not only is he a do-er, but he also fosters a fantastic work environment.',
+      image: 'https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/69.jpg',
+    },
+    {
+      name: 'Luke',
+      text: 'What makes Daniel standout is his data driven and "back to fundamentals" style of working, and is a leader that inspires through action. He is highly technical leader in the data/AI/ML domain paired with a strong business & people mindset.',
       image: 'https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/69.jpg',
     },
   ],
@@ -336,27 +449,32 @@ export const testimonial: TestimonialSection = {
 
 export const contact: ContactSection = {
   headerText: 'Get in touch.',
-  description: 'Here is a good spot for a message to your readers to let them know how best to reach out to you.',
+  description: 'I am always open to discussing new opportunities, innovative ideas, or how I can bring value to your team. Feel free to reach out.',
   items: [
     {
+      type: ContactType.Phone,
+      text: '425.922.0726',
+      href: 'tel:4259220726',
+    },
+    {
       type: ContactType.Email,
-      text: 'reachout@timbaker.me',
-      href: 'mailto:reachout@timbaker.me',
+      text: 'DSims21@gmail.com',
+      href: 'mailto:dims21@gmail.com',
     },
     {
-      type: ContactType.Location,
-      text: 'Victoria BC, Canada',
-      href: 'https://www.google.ca/maps/place/Victoria,+BC/@48.4262362,-123.376775,14z',
-    },
-    {
-      type: ContactType.Instagram,
-      text: '@tbakerx',
-      href: 'https://www.instagram.com/tbakerx/',
+      type: ContactType.LinkedIn,
+      text: 'DanielJSims',
+      href: 'https://www.linkedin.com/in/danieljsims/',
     },
     {
       type: ContactType.Github,
-      text: 'tbakerx',
-      href: 'https://github.com/tbakerx',
+      text: 'DSims21',
+      href: 'https://github.com/dsims21',
+    },
+    {
+      type: ContactType.Twitter,
+      text: 'MonteCarloSims',
+      href: 'https://twitter.com/MonteCarloSims',
     },
   ],
 };
@@ -365,9 +483,9 @@ export const contact: ContactSection = {
  * Social items
  */
 export const socialLinks: Social[] = [
-  {label: 'Github', Icon: GithubIcon, href: 'https://github.com/tbakerx'},
-  {label: 'Stack Overflow', Icon: StackOverflowIcon, href: 'https://stackoverflow.com/users/8553186/tim-baker'},
-  {label: 'LinkedIn', Icon: LinkedInIcon, href: 'https://www.linkedin.com/in/timbakerx/'},
-  {label: 'Instagram', Icon: InstagramIcon, href: 'https://www.instagram.com/tbakerx/'},
-  {label: 'Twitter', Icon: TwitterIcon, href: 'https://twitter.com/TimBakerx'},
+  {label: 'Github', Icon: GithubIcon, href: 'https://github.com/dsims21'},
+  {label: 'Stack Overflow', Icon: StackOverflowIcon, href: 'https://stackoverflow.com/users/9862149/montecarlosims'},
+  {label: 'LinkedIn', Icon: LinkedInIcon, href: 'https://www.linkedin.com/in/danieljsims/'},
+  // {label: 'Instagram', Icon: InstagramIcon, href: 'https://www.instagram.com/skyhighcloudeater/'},
+  {label: 'Twitter', Icon: TwitterIcon, href: 'https://twitter.com/MonteCarloSims'},
 ];
