@@ -432,8 +432,8 @@ export const contact: ContactSection = {
     },
     {
       type: ContactType.StackOverflow,
-      text: 'DSims21',
-      href: 'https://github.com/dsims21',
+      text: 'MonteCarloSims',
+      href: 'https://stackoverflow.com/users/9862149/montecarlosims',
     },
     {
       type: ContactType.LinkedIn,
