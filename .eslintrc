@@ -26,7 +26,7 @@
     "react-hooks/exhaustive-deps": "error",
     "@typescript-eslint/explicit-function-return-type": "off",
     "@typescript-eslint/member-ordering": [
-      "warn",
+      "off",
       {
         "interfaces": ["signature", "method", "constructor", "field"],
         "typeLiterals": ["signature", "method", "constructor", "field"]
