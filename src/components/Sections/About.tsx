@@ -33,10 +33,10 @@ const About: FC = memo(() => {
           </ul>
         </div>
         <iframe
+            height="450"
             src="https://cvquestionanswer.streamlit.app/?embed=true"
             // frameborder="0"
             width="1000"
-            height="450"
           ></iframe>
       </div>
     </Section>
