@@ -223,72 +223,72 @@ export const skills: SkillGroup[] = [
  * Portfolio section
  */
 export const portfolioItems: PortfolioItem[] = [
+  // {
+  //   title: 'ResumeGPT',
+  //   description: 'Chat with my resume. Ask away.',
+  //   url: 'https://cvquestionanswer.streamlit.app/',
+  //   image: porfolioImage1,
+  // },
+  // {
+  //   title: 'Project title 2',
+  //   description: 'Give a short description of your project here.',
+  //   url: 'https://timbaker.me',
+  //   image: porfolioImage2,
+  // },
+  // {
+  //   title: 'Project title 3',
+  //   description: 'Give a short description of your project here.',
+  //   url: 'https://timbaker.me',
+  //   image: porfolioImage3,
+  // },
   {
-    title: 'Project title 1',
-    description: 'Give a short description of your project here.',
-    url: 'https://timbaker.me',
-    image: porfolioImage1,
-  },
-  {
-    title: 'Project title 2',
-    description: 'Give a short description of your project here.',
-    url: 'https://timbaker.me',
-    image: porfolioImage2,
-  },
-  {
-    title: 'Project title 3',
-    description: 'Give a short description of your project here.',
-    url: 'https://timbaker.me',
-    image: porfolioImage3,
-  },
-  {
-    title: 'Project title 4',
-    description: 'Give a short description of your project here.',
-    url: 'https://timbaker.me',
+    title: 'ResumeGPT',
+    description: 'Chat with my resume. Ask away. /n/n Designed with: /n/n Python /n OpenAI /n LangChain /n Streamlit',
+    url: 'https://cvquestionanswer.streamlit.app/',
     image: porfolioImage4,
   },
-  {
-    title: 'Project title 5',
-    description: 'Give a short description of your project here.',
-    url: 'https://timbaker.me',
-    image: porfolioImage5,
-  },
-  {
-    title: 'Project title 6',
-    description: 'Give a short description of your project here.',
-    url: 'https://timbaker.me',
-    image: porfolioImage6,
-  },
-  {
-    title: 'Project title 7',
-    description: 'Give a short description of your project here.',
-    url: 'https://timbaker.me',
-    image: porfolioImage7,
-  },
-  {
-    title: 'Project title 8',
-    description: 'Give a short description of your project here.',
-    url: 'https://timbaker.me',
-    image: porfolioImage8,
-  },
-  {
-    title: 'Project title 9',
-    description: 'Give a short description of your project here.',
-    url: 'https://timbaker.me',
-    image: porfolioImage9,
-  },
-  {
-    title: 'Project title 10',
-    description: 'Give a short description of your project here.',
-    url: 'https://timbaker.me',
-    image: porfolioImage10,
-  },
-  {
-    title: 'Project title 11',
-    description: 'Give a short description of your project here.',
-    url: 'https://timbaker.me',
-    image: porfolioImage11,
-  },
+  // {
+  //   title: 'Project title 5',
+  //   description: 'Give a short description of your project here.',
+  //   url: 'https://cvquestionanswer.streamlit.app/',
+  //   image: porfolioImage5,
+  // },
+  // {
+  //   title: 'Project title 6',
+  //   description: 'Give a short description of your project here.',
+  //   url: 'https://timbaker.me',
+  //   image: porfolioImage6,
+  // },
+  // {
+  //   title: 'Project title 7',
+  //   description: 'Give a short description of your project here.',
+  //   url: 'https://timbaker.me',
+  //   image: porfolioImage7,
+  // },
+  // {
+  //   title: 'Project title 8',
+  //   description: 'Give a short description of your project here.',
+  //   url: 'https://timbaker.me',
+  //   image: porfolioImage8,
+  // },
+  // {
+  //   title: 'Project title 9',
+  //   description: 'Give a short description of your project here.',
+  //   url: 'https://timbaker.me',
+  //   image: porfolioImage9,
+  // },
+  // {
+  //   title: 'Project title 10',
+  //   description: 'Give a short description of your project here.',
+  //   url: 'https://timbaker.me',
+  //   image: porfolioImage10,
+  // },
+  // {
+  //   title: 'Project title 11',
+  //   description: 'Give a short description of your project here.',
+  //   url: 'https://timbaker.me',
+  //   image: porfolioImage11,
+  // },
 ];
 
 /**
@@ -385,22 +385,22 @@ export const testimonial: TestimonialSection = {
   imageSrc: testimonialImage,
   testimonials: [
     {
-      name: 'Chris Ghyzel',
+      name: 'Chris Ghyzel - TAM',
       text: 'Daniel is among the smartest and most active managers I have had. He really challenged me to think about the way I work. Our team always performed consistently well because he was engaged with us. In doing so he brought us to the highest level of performance: creativity, which is something truly rare.',
       image: 'testimonialimages/chris.jpg',
     },
     {
-      name: 'Alex Lavoie',
+      name: 'Alex Lavoie - TAM',
       text: 'It is not often you closely collaborate with someone whose talents span so many areas. Technical, analytical, tactical. That’s just the start.',
       image: 'testimonialimages/alex.jpg',
     },
     {
-      name: 'Kevin Haley',
+      name: 'Kevin Haley - Product Manager',
       text: 'Daniel is extremely reliable and trustworthy, and I knew that any project with him on it would be driven to completion and be successful. Not only is he a do-er, but he also fosters a fantastic work environment.',
       image: 'testimonialimages/kevin.jpg',
     },
     {
-      name: 'Luke Watkins',
+      name: 'Luke Watkins - Senior TAM',
       text: 'What makes Daniel standout is his data driven and "back to fundamentals" style of working, and is a leader that inspires through action. He is highly technical leader in the data/AI/ML domain paired with a strong business & people mindset.',
       image: 'testimonialimages/luke.jpg',
     },
