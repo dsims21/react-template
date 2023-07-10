@@ -117,7 +117,7 @@ const Testimonial: FC<{testimonial: Testimonial; isActive: boolean}> = memo(
   ({testimonial: {text, name, image}, isActive}) => (
     <div
       className={classNames(
-        'flex w-full shrink-0 snap-start snap-always flex-col items-start gap-y-4 p-2 transition-opacity duration-1000 sm:flex-row sm:gap-x-6',
+        'flex w-full shrink-0 snap-start snap-always flex-col items-start gap-y-4 p-2 transition-opacity duration-2000 sm:flex-row sm:gap-x-6',
         isActive ? 'opacity-100' : 'opacity-0',
       )}>
       {image ? (
