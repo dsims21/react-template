@@ -73,7 +73,7 @@ export const heroData: Hero = {
   description: (
     <>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
-         I'm <strong className="text-stone-100">Daniel Sims</strong>, a tech enthusiast and an accomplished leader with a global footprint, currently based in <strong className="text-stone-100">Seattle</strong>. My technical acumen, coupled with a rapid learning ability and a keen interest in Artificial Intelligence, enables me to drive innovation in complex business environments.
+         Hi! I'm <strong className="text-stone-100">Daniel Sims</strong>, a tech enthusiast and an accomplished leader with a global footprint, currently based in <strong className="text-stone-100">Seattle</strong>. My technical acumen, coupled with a rapid learning ability and a keen interest in Artificial Intelligence, enables me to drive innovation in complex business environments.
       </p>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
          Beyond work, I enjoy adventuring into the vast universe of Virtual Reality or riding my electric scooter.
@@ -82,7 +82,7 @@ export const heroData: Hero = {
   ),
   actions: [
     {
-      href: '/assets/resume.pdf',
+      href: '/assets/Daniel_Sims_Resume.pdf',
       text: 'Resume',
       primary: true,
       Icon: ArrowDownTrayIcon,
