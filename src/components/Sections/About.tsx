@@ -32,12 +32,12 @@ const About: FC = memo(() => {
             ))}
           </ul>
         </div>
-        <iframe
+        {/* <iframe
             height="600"
             src="https://cvquestionanswer.streamlit.app/?embed=true&embed_options=dark_theme"
             // frameborder="0"
             width="1000"
-          ></iframe>
+          ></iframe> */}
       </div>
     </Section>
   );
