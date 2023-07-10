@@ -430,12 +430,11 @@ export const contact: ContactSection = {
       text: 'DSims21',
       href: 'https://github.com/dsims21',
     },
-    //@ts-ignore
-    {
-      type: ContactType.StackOverflow,
-      text: 'MonteCarloSims',
-      href: 'https://stackoverflow.com/users/9862149/montecarlosims',
-    },
+    // {
+    //   type: ContactType.StackOverflow,
+    //   text: 'MonteCarloSims',
+    //   href: 'https://stackoverflow.com/users/9862149/montecarlosims',
+    // },
     {
       type: ContactType.LinkedIn,
       text: 'DanielJSims',
