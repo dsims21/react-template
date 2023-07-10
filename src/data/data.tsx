@@ -12,7 +12,7 @@ import GithubIcon from '../components/Icon/GithubIcon';
 // import InstagramIcon from '../components/Icon/InstagramIcon';
 import LinkedInIcon from '../components/Icon/LinkedInIcon';
 import StackOverflowIcon from '../components/Icon/StackOverflowIcon';
-import TwitterIcon from '../components/Icon/TwitterIcon';
+// import TwitterIcon from '../components/Icon/TwitterIcon';
 import heroImage from '../images/header-background.webp';
 import porfolioImage1 from '../images/portfolio/portfolio-1.jpg';
 import porfolioImage2 from '../images/portfolio/portfolio-2.jpg';
@@ -44,7 +44,7 @@ import {
  * Page meta data
  */
 export const homePageMeta: HomepageMeta = {
-  title: 'Daniel Sims',
+  title: `Daniel Sims - CV - Data First`,
   description: "Daniel Sims' personal website",
 };
 
@@ -201,19 +201,19 @@ export const skills: SkillGroup[] = [
     ],
   },
   {
-    name: 'Spoken languages',
+    name: 'Container Technologies',
     skills: [
       {
-        name: 'English',
-        level: 10,
+        name: 'Kubernetes',
+        level: 8,
       },
       {
-        name: 'Spanish',
+        name: 'Docker',
         level: 4,
       },
       {
-        name: 'French',
-        level: 4,
+        name: 'Helm',
+        level: 7,
       },
     ],
   },
@@ -426,20 +426,25 @@ export const contact: ContactSection = {
       href: 'mailto:dims21@gmail.com',
     },
     {
-      type: ContactType.LinkedIn,
-      text: 'DanielJSims',
-      href: 'https://www.linkedin.com/in/danieljsims/',
-    },
-    {
       type: ContactType.Github,
       text: 'DSims21',
       href: 'https://github.com/dsims21',
     },
     {
-      type: ContactType.Twitter,
-      text: 'MonteCarloSims',
-      href: 'https://twitter.com/MonteCarloSims',
+      type: ContactType.StackOverflow,
+      text: 'DSims21',
+      href: 'https://github.com/dsims21',
     },
+    {
+      type: ContactType.LinkedIn,
+      text: 'DanielJSims',
+      href: 'https://www.linkedin.com/in/danieljsims/',
+    },
+    // {
+    //   type: ContactType.Twitter,
+    //   text: 'MonteCarloSims',
+    //   href: 'https://twitter.com/MonteCarloSims',
+    // },
   ],
 };
 
@@ -451,5 +456,5 @@ export const socialLinks: Social[] = [
   {label: 'Stack Overflow', Icon: StackOverflowIcon, href: 'https://stackoverflow.com/users/9862149/montecarlosims'},
   {label: 'LinkedIn', Icon: LinkedInIcon, href: 'https://www.linkedin.com/in/danieljsims/'},
   // {label: 'Instagram', Icon: InstagramIcon, href: 'https://www.instagram.com/skyhighcloudeater/'},
-  {label: 'Twitter', Icon: TwitterIcon, href: 'https://twitter.com/MonteCarloSims'},
+  // {label: 'Twitter', Icon: TwitterIcon, href: 'https://twitter.com/MonteCarloSims'},
 ];
