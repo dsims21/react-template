@@ -425,11 +425,11 @@ export const contact: ContactSection = {
       text: 'DSims21@gmail.com',
       href: 'mailto:dims21@gmail.com',
     },
-    {
-      type: ContactType.Github,
-      text: 'DSims21',
-      href: 'https://github.com/dsims21',
-    },
+    // {
+    //   type: ContactType.Github,
+    //   text: 'DSims21',
+    //   href: 'https://github.com/dsims21',
+    // },
     // {
     //   type: ContactType.StackOverflow,
     //   text: 'MonteCarloSims',
