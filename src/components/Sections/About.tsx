@@ -34,7 +34,7 @@ const About: FC = memo(() => {
         </div>
         <iframe
             height="450"
-            src="https://cvquestionanswer.streamlit.app/?embed=true,embed_options=dark_theme
+            src="https://cvquestionanswer.streamlit.app/?embed=true,embed_options=dark_theme"
             // frameborder="0"
             width="1000"
           ></iframe>
