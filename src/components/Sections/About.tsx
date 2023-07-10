@@ -33,7 +33,7 @@ const About: FC = memo(() => {
           </ul>
         </div>
         <iframe
-            height="450"
+            height="600"
             src="https://cvquestionanswer.streamlit.app/?embed=true&embed_options=dark_theme"
             // frameborder="0"
             width="1000"
