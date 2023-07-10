@@ -301,12 +301,12 @@ export const education: TimelineItem[] = [
     title: 'Bachelor of Arts in Business Administration',
     content: <p>In my academic journey, I explored a broad spectrum of business subjects that have become a cornerstone in my tech-oriented career. From Business Finance to E-Marketing and International Trade, my foundational knowledge has been integral in navigating the dynamic landscape of the tech industry.</p>,
   },
-  {
-    date: 'June 2013',
-    location: 'Cascadia College',
-    title: 'Associate of Arts in Business Administration',
-    content: <p></p>,
-  },
+  // {
+  //   date: 'June 2013',
+  //   location: 'Cascadia College',
+  //   title: 'Associate of Arts in Business Administration',
+  //   content: <p></p>,
+  // },
 ];
 
 export const experience: TimelineItem[] = [
