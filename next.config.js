@@ -24,7 +24,7 @@ const nextConfig = {
     multipass: true,
     plugins: ['removeDimensions'],
   },
-  strictMode: true,
+  // strictMode: true,
   swcMinify: true,
   trailingSlash: false,
   images: {
