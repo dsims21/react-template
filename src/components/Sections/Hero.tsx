@@ -44,17 +44,17 @@ const Hero: FC = memo(() => {
                 </a>
               ))}
             </div>
-          </div>
-          <div className="absolute bottom-12 md:bottom-24 lg:bottom-24 inset-x-0 flex justify-center rounded-lg overflow-hidden">
-          <Link href='https://cvquestionanswer.streamlit.app/'> 
-              <Image
-                alt="Description of Image"
-                height={72}
-                layout="fixed"
-                src="/publicimages/resumegpt4.png" 
-                width={1000}
-              />
-          </Link>
+            <div className="relative inset-x-0 flex justify-center rounded-lg overflow-hidden">
+              <Link href='https://cvquestionanswer.streamlit.app/'> 
+                  <Image
+                    alt="Description of Image"
+                    height={72}
+                    layout="fixed"
+                    src="/publicimages/resumegpt4.png" 
+                    width={950}
+                  />
+              </Link>
+            </div>
           </div>
         </div>
         <div className="absolute inset-x-0 bottom-6 flex justify-center">
