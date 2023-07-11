@@ -45,8 +45,7 @@ const Hero: FC = memo(() => {
               ))}
             </div>
           </div>
-        </div>
-        <div className="absolute bottom-12 md:bottom-24 lg:bottom-24 inset-x-0 flex justify-center rounded-lg overflow-hidden">
+          <div className="absolute bottom-12 md:bottom-24 lg:bottom-24 inset-x-0 flex justify-center rounded-lg overflow-hidden">
           <Link href='https://cvquestionanswer.streamlit.app/'> 
               <Image
                 alt="Description of Image"
@@ -56,6 +55,7 @@ const Hero: FC = memo(() => {
                 width={1000}
               />
           </Link>
+          </div>
         </div>
         <div className="absolute inset-x-0 bottom-6 flex justify-center">
           <a
