@@ -76,7 +76,7 @@ export const heroData: Hero = {
          Hi! I'm <strong className="text-stone-100">Daniel Sims</strong>, a tech enthusiast and an accomplished leader with a global footprint, currently based in <strong className="text-stone-100">Seattle</strong>. My technical acumen, coupled with a rapid learning ability and a keen interest in Artificial Intelligence, enables me to drive innovation in complex business environments.
       </p>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
-         Beyond work, I enjoy adventuring into the vast universe of Virtual Reality or riding my electric scooter.
+         Feel free to share this page, download my resume, and interact with ResumeGPT, my custom program, below!
       </p>
     </>
   ),
