@@ -390,8 +390,18 @@ export const testimonial: TestimonialSection = {
       image: 'testimonialimages/chris.jpg',
     },
     {
+      name: 'Alex Albu (Engineering Manager)',
+      text: `Daniel is a savvy technical leader who tackles challenging problems thinking out of the box. Always responsive and ready to engage. When working with my team, he always brought valuable insights, both technical and the customer's perspective.`,
+      image: 'testimonialimages/alexalbu.jpg',
+    },
+    {
+      name: 'Sejin Mong (Director, Customer Success)',
+      text: `Daniel cares deeply about the team members he manages and mentors. He wants to see his team members succeed, which is a quality that his direct reports could feel daily in their work alongside him.`,
+      image: 'testimonialimages/sejin.jpg',
+    },
+    {
       name: 'Alex Lavoie (Technical Account Manager)',
-      text: 'It is not often you closely collaborate with someone whose talents span so many areas. Technical, analytical, tactical. That’s just the start.',
+      text: `It is not often you closely collaborate with someone whose talents span so many areas. Technical, analytical, tactical. That's just the start.`,
       image: 'testimonialimages/alex.jpg',
     },
     {
