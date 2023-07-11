@@ -53,7 +53,7 @@ const Hero: FC = memo(() => {
             <ChevronDownIcon className="h-5 w-5 bg-transparent sm:h-6 sm:w-6" />
           </a>
         </div>
-        <div className="absolute inset-x-0 sm:bottom-24 flex justify-center rounded-lg overflow-hidden">
+        <div className="absolute md:bottom-24 sm:bottom-12 inset-x-0 flex justify-center rounded-lg overflow-hidden">
           <Link href='https://cvquestionanswer.streamlit.app/'> 
               <Image
                 alt="Description of Image"
