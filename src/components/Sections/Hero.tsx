@@ -48,10 +48,11 @@ const Hero: FC = memo(() => {
               <Link href='https://cvquestionanswer.streamlit.app/'> 
                   <Image
                     alt="Description of Image"
-                    height={72}
+                    className="w-full sm:w-1/2 md:w-1/3 lg:w-1/4"
+                    // height={72}
                     layout="fixed"
                     src="/publicimages/resumegpt4.png" 
-                    width={950}
+                    // width={950}
                   />
               </Link>
             </div>
