@@ -385,22 +385,22 @@ export const testimonial: TestimonialSection = {
   imageSrc: testimonialImage,
   testimonials: [
     {
-      name: 'Chris Ghyzel - TAM',
+      name: 'Chris Ghyzel (Technical Account Manager)',
       text: 'Daniel is among the smartest and most active managers I have had. He really challenged me to think about the way I work. Our team always performed consistently well because he was engaged with us. In doing so he brought us to the highest level of performance: creativity, which is something truly rare.',
       image: 'testimonialimages/chris.jpg',
     },
     {
-      name: 'Alex Lavoie - TAM',
+      name: 'Alex Lavoie (Technical Account Manager)',
       text: 'It is not often you closely collaborate with someone whose talents span so many areas. Technical, analytical, tactical. That’s just the start.',
       image: 'testimonialimages/alex.jpg',
     },
     {
-      name: 'Kevin Haley - Product Manager',
+      name: 'Kevin Haley (Product Manager)',
       text: 'Daniel is extremely reliable and trustworthy, and I knew that any project with him on it would be driven to completion and be successful. Not only is he a do-er, but he also fosters a fantastic work environment.',
       image: 'testimonialimages/kevin.jpg',
     },
     {
-      name: 'Luke Watkins - Senior TAM',
+      name: 'Luke Watkins (Senior Technical Account Manager)',
       text: 'What makes Daniel standout is his data driven and "back to fundamentals" style of working, and is a leader that inspires through action. He is highly technical leader in the data/AI/ML domain paired with a strong business & people mindset.',
       image: 'testimonialimages/luke.jpg',
     },

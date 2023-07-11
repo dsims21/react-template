@@ -7,6 +7,8 @@ import {heroData, SectionId} from '../../data/data';
 import Section from '../Layout/Section';
 import Socials from '../Socials';
 
+import Link from 'next/link';
+
 const Hero: FC = memo(() => {
   const {imageSrc, name, description, actions} = heroData;
 
@@ -49,6 +51,17 @@ const Hero: FC = memo(() => {
             href={`/#${SectionId.About}`}>
             <ChevronDownIcon className="h-5 w-5 bg-transparent sm:h-6 sm:w-6" />
           </a>
+        </div>
+        <div className="absolute inset-x-0 bottom-24 flex justify-center rounded-lg overflow-hidden">
+          <Link href='https://cvquestionanswer.streamlit.app/'> 
+              <Image
+                src="/publicimages/resumegpt3.png" 
+                alt="Description of Image" 
+                width={882} 
+                height={54} 
+                layout="fixed"
+              />
+          </Link>
         </div>
       </div>
     </Section>
