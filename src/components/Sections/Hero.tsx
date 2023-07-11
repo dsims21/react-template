@@ -48,7 +48,7 @@ const Hero: FC = memo(() => {
               <Link href='https://cvquestionanswer.streamlit.app/'> 
                   <Image
                     alt="ResumeGPT by Daniel Sims"
-                    className="w-full md:w-full lg:w-full h-full"
+                    className="w-full sm:w-1/2 md:w-full lg:w-full h-96"
                     // height={72}
                     layout="responsive"
                     src="/publicimages/resumegpt4.png" 
