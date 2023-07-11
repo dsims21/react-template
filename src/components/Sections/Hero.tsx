@@ -4,10 +4,11 @@ import Image from 'next/image';
 import {FC, memo} from 'react';
 
 import {heroData, SectionId} from '../../data/data';
+import Link from 'next/link';
 import Section from '../Layout/Section';
 import Socials from '../Socials';
 
-import Link from 'next/link';
+
 
 const Hero: FC = memo(() => {
   const {imageSrc, name, description, actions} = heroData;
