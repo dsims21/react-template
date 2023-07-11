@@ -55,11 +55,11 @@ const Hero: FC = memo(() => {
         <div className="absolute inset-x-0 bottom-24 flex justify-center rounded-lg overflow-hidden">
           <Link href='https://cvquestionanswer.streamlit.app/'> 
               <Image
-                src="/publicimages/resumegpt3.png" 
-                alt="Description of Image" 
-                width={882} 
-                height={54} 
+                alt="Description of Image"
+                height={54}
                 layout="fixed"
+                src="/publicimages/resumegpt3.png" 
+                width={882}
               />
           </Link>
         </div>
