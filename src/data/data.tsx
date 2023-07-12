@@ -322,7 +322,10 @@ export const experience: TimelineItem[] = [
       <br />
       <div>
       <p>
-        • testimonial
+        • Implemented and administered Tableau Server across the company, providing a unified data layer and improving departmental coordination. This solution significantly enhanced daily operations, as evidenced by up to 1000 views of dashboards per day.
+      </p>
+      <p>
+        • Successfully developed 'Radar Ping', a unique tool integrated into Slack, providing predictive insights into account management issues and facilitating effective team communication, enhancing decision-making and problem-solving capabilities.
       </p>
       </div>
       </div>
@@ -333,9 +336,20 @@ export const experience: TimelineItem[] = [
     location: 'Starburst Data',	
     title: 'Technical Account Manager',	
     content: (
+      <div>
       <p>
-        In this role, I fused technical expertise with account management, cultivating relationships with significant customer accounts while driving data solutions. Leveraging Trino/Presto and other advanced technologies, I built robust data strategies that facilitated efficient data federation and querying for the world's largest datasets.
+        In this role, I fused technical expertise with account management, cultivating relationships with significant customer accounts while driving data solutions. Leveraging Trino/Presto and other advanced technologies, I built robust data strategies that facilitated efficient data federation and querying for the world's largest datasets. 
       </p>
+      <br />
+      <div>
+      <p>
+        • Served as the trusted point of contact for high-profile customer accounts, consistently delivering high-quality support and facilitating collaboration with global data teams.
+      </p>
+      <p>
+        • Fostered strong relationships with product and engineering teams, contributing to significant product enhancements through informed liaising and effective communication.
+      </p>
+      </div>
+      </div>
     ),
   },
   // {	
@@ -344,7 +358,7 @@ export const experience: TimelineItem[] = [
   //   title: 'Manager, Technical Account Management',	
   //   content: (	
   //     <div>	
-  //     <p>I managed a specialized team of technical account managers who catered to high-profile clients, navigated complex challenges, and implemented systems to enhance operational efficiency. My focus was on using innovative solutions and clear communication to achieve customer satisfaction and drive team performance.</p>	
+  //     <p>In this role, I fused technical expertise with account management, cultivating relationships with significant customer accounts while driving data solutions. Leveraging Trino/Presto and other advanced technologies, I built robust data strategies that facilitated efficient data federation and querying for the world's largest datasets.</p>	
   //     <div style={{ paddingLeft: '30px', textIndent: '-13px' }}>	
   //         <p>• Implemented and administered Tableau Server across the company, providing a unified data layer and improving departmental coordination. This solution significantly enhanced daily operations, as evidenced by up to 1000 views of dashboards per day.</p>	
   //         <p>• Successfully developed 'Radar Ping', a unique tool integrated into Slack, providing predictive insights into account management issues and facilitating effective team communication, enhancing decision-making and problem-solving capabilities.</p>	
