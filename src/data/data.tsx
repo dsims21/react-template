@@ -322,7 +322,7 @@ export const experience: TimelineItem[] = [
       <br />
       <div className="pl-8">
         <ul className="list-disc list-inside">
-          <li>Implemented and administered Tableau Server across the company, providing a unified data layer and improving departmental coordination. This solution significantly enhanced daily operations, as evidenced by up to 1000 views of dashboards per day.</li>
+          <li>Implemented and administered a 600 user Tableau Server across the company, providing a unified data layer and improving departmental coordination. This solution significantly enhanced daily operations, as evidenced by up to 1000 views of dashboards per day.</li>
           <li>Successfully developed 'Radar Ping', a unique tool integrated into Slack, providing predictive insights into account management issues and facilitating effective team communication, enhancing decision-making and problem-solving capabilities.</li>
        </ul>
       </div>
@@ -434,7 +434,7 @@ export const testimonial: TestimonialSection = {
       image: 'testimonialimages/chris.jpg',
     },
     {
-      name: 'Alex Albu (Engineering Manager)',
+      name: 'Alex Albu (Director, Engineering)',
       text: `Daniel is a savvy technical leader who tackles challenging problems thinking out of the box. Always responsive and ready to engage. When working with my team, he always brought valuable insights, both technical and the customer's perspective.`,
       image: 'testimonialimages/alexalbu.jpg',
     },
