@@ -320,9 +320,11 @@ export const experience: TimelineItem[] = [
         I managed a specialized team of technical account managers who catered to high-profile clients, navigated complex challenges, and implemented systems to enhance operational efficiency. My focus was on using innovative solutions and clear communication to achieve customer satisfaction and drive team performance.
       </p>
       <br />
+      <div>
       <p>
         • testimonial
       </p>
+      </div>
       </div>
     ),
   },
