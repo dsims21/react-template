@@ -320,13 +320,11 @@ export const experience: TimelineItem[] = [
         I managed a specialized team of technical account managers who catered to high-profile clients, navigated complex challenges, and implemented systems to enhance operational efficiency. My focus was on using innovative solutions and clear communication to achieve customer satisfaction and drive team performance.
       </p>
       <br />
-      <div>
-      <p>
-        • Implemented and administered Tableau Server across the company, providing a unified data layer and improving departmental coordination. This solution significantly enhanced daily operations, as evidenced by up to 1000 views of dashboards per day.
-      </p>
-      <p>
-        • Successfully developed 'Radar Ping', a unique tool integrated into Slack, providing predictive insights into account management issues and facilitating effective team communication, enhancing decision-making and problem-solving capabilities.
-      </p>
+      <div className="pl-8">
+        <ul className="list-disc list-inside">
+          <li>Implemented and administered Tableau Server across the company, providing a unified data layer and improving departmental coordination. This solution significantly enhanced daily operations, as evidenced by up to 1000 views of dashboards per day.</li>
+          <li>Successfully developed 'Radar Ping', a unique tool integrated into Slack, providing predictive insights into account management issues and facilitating effective team communication, enhancing decision-making and problem-solving capabilities.</li>
+       </ul>
       </div>
       </div>
     ),
@@ -343,8 +341,8 @@ export const experience: TimelineItem[] = [
       <br />
       <div className="pl-8">
         <ul className="list-disc list-inside">
-          <li>Implemented and administered Tableau Server...</li>
-          <li>Successfully developed 'Radar Ping'...</li>
+          <li>Served as the trusted point of contact for high-profile customer accounts, consistently delivering high-quality support and facilitating collaboration with global data teams.</li>
+          <li>Fostered strong relationships with product and engineering teams, contributing to significant product enhancements through informed liaising and effective communication.</li>
        </ul>
       </div>
       </div>
