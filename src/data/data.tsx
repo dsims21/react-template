@@ -320,7 +320,7 @@ export const experience: TimelineItem[] = [
         I managed a specialized team of technical account managers who catered to high-profile clients, navigated complex challenges, and implemented systems to enhance operational efficiency. My focus was on using innovative solutions and clear communication to achieve customer satisfaction and drive team performance.
       </p>
       <br />
-      <div style={{ paddingLeft: '30px'}}>
+      <div>
       <p>
         • Implemented and administered Tableau Server across the company, providing a unified data layer and improving departmental coordination. This solution significantly enhanced daily operations, as evidenced by up to 1000 views of dashboards per day.
       </p>
