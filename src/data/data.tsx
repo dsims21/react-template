@@ -488,7 +488,7 @@ export const testimonial: TestimonialSection = {
     },
     {
       name: 'Lexi Wilkins (Project Manager)',
-      text: `He possess exceptional problem-solving skills and can approach complex situations with a calm and analytical mindset.`,
+      text: `Daniel possess exceptional problem-solving skills and can approach complex situations with a calm and analytical mindset.`,
       image: 'testimonialimages/lexi.jpg',
     },
     {
