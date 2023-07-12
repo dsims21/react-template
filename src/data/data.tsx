@@ -341,13 +341,11 @@ export const experience: TimelineItem[] = [
         In this role, I fused technical expertise with account management, cultivating relationships with significant customer accounts while driving data solutions. Leveraging Trino/Presto and other advanced technologies, I built robust data strategies that facilitated efficient data federation and querying for the world's largest datasets. 
       </p>
       <br />
-      <div>
-      <p>
-        • Served as the trusted point of contact for high-profile customer accounts, consistently delivering high-quality support and facilitating collaboration with global data teams.
-      </p>
-      <p>
-        • Fostered strong relationships with product and engineering teams, contributing to significant product enhancements through informed liaising and effective communication.
-      </p>
+      <div className="pl-8">
+        <ul className="list-disc list-inside">
+          <li>Implemented and administered Tableau Server...</li>
+          <li>Successfully developed 'Radar Ping'...</li>
+       </ul>
       </div>
       </div>
     ),
