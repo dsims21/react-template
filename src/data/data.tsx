@@ -330,20 +330,20 @@ export const experience: TimelineItem[] = [
       </p>
     ),
   },
-  {	
-    date: 'August 2022 - June 2023',	
-    location: 'Starburst Data',	
-    title: 'Manager, Technical Account Management',	
-    content: (	
-      <div>	
-      <p>I managed a specialized team of technical account managers who catered to high-profile clients, navigated complex challenges, and implemented systems to enhance operational efficiency. My focus was on using innovative solutions and clear communication to achieve customer satisfaction and drive team performance.</p>	
-      <div style={{ paddingLeft: '30px', textIndent: '-13px' }}>	
-          <p>• Implemented and administered Tableau Server across the company, providing a unified data layer and improving departmental coordination. This solution significantly enhanced daily operations, as evidenced by up to 1000 views of dashboards per day.</p>	
-          <p>• Successfully developed 'Radar Ping', a unique tool integrated into Slack, providing predictive insights into account management issues and facilitating effective team communication, enhancing decision-making and problem-solving capabilities.</p>	
-      </div>	
-      </div>	
-    ),	
-  },	
+  // {	
+  //   date: 'August 2022 - June 2023',	
+  //   location: 'Starburst Data',	
+  //   title: 'Manager, Technical Account Management',	
+  //   content: (	
+  //     <div>	
+  //     <p>I managed a specialized team of technical account managers who catered to high-profile clients, navigated complex challenges, and implemented systems to enhance operational efficiency. My focus was on using innovative solutions and clear communication to achieve customer satisfaction and drive team performance.</p>	
+  //     <div style={{ paddingLeft: '30px', textIndent: '-13px' }}>	
+  //         <p>• Implemented and administered Tableau Server across the company, providing a unified data layer and improving departmental coordination. This solution significantly enhanced daily operations, as evidenced by up to 1000 views of dashboards per day.</p>	
+  //         <p>• Successfully developed 'Radar Ping', a unique tool integrated into Slack, providing predictive insights into account management issues and facilitating effective team communication, enhancing decision-making and problem-solving capabilities.</p>	
+  //     </div>	
+  //     </div>	
+  //   ),	
+  // },	
   // {	
   //   date: 'August 2021 - August 2022',	
   //   location: 'Starburst Data',	
