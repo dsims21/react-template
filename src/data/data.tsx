@@ -322,8 +322,9 @@ export const experience: TimelineItem[] = [
       <br />
       <div className="pl-8">
         <ul className="list-disc list-inside">
+          <li>Fostered a culture of empowerment and teamwork, leading to a high-performing team in a challenging and technical environment. This leadership style resulted in improved team performance, higher job satisfaction, and the successful nurturing of individuals into roles of increased responsibility and challenge.</li>
+          <li>Introduced an effective communication strategy that bridged the gap between clients and internal teams. This initiative involved setting up standardized patterns of client communication and internal 'key customer issues' escalations meetings, resulting in better issue tracking, faster problem resolution, and enhanced collaboration across the board.</li>
           <li>Implemented and administered a 600 user Tableau Server across the company, providing a unified data layer and improving departmental coordination. This solution significantly enhanced daily operations, as evidenced by up to 1000 views of dashboards per day.</li>
-          <li>Successfully developed 'Radar Ping', a unique tool integrated into Slack, providing predictive insights into account management issues and facilitating effective team communication, enhancing decision-making and problem-solving capabilities.</li>
        </ul>
       </div>
       </div>
@@ -336,7 +337,7 @@ export const experience: TimelineItem[] = [
     content: (
       <div>
       <p>
-        In this role, I fused technical expertise with account management, cultivating relationships with significant customer accounts while driving data solutions. Leveraging Trino/Presto and other advanced technologies, I built robust data strategies that facilitated efficient data federation and querying for the world's largest datasets. 
+        In this role, I fused technical expertise with account management, cultivating relationships with significant customer accounts while driving data solutions. Leveraging Trino/Presto and other advanced technologies, I built robust data strategies that facilitated efficient querying for the world's largest datasets. 
       </p>
       <br />
       <div className="pl-8">
@@ -381,10 +382,18 @@ export const experience: TimelineItem[] = [
     location: 'OpenMarket Inc.',
     title: 'Senior Technical Account Manager',
     content: (
+      <div>
       <p>
-        Played a pivotal role in designing and implementing global text messaging platforms for the company's most significant account. 
-        Managed real-time global platform stability, handled time-sensitive SMS data, and developed data warehouse infrastructure.
+        Seamlessly blended my technical acumen and client relationship management capabilities to significantly enhance our global text messaging platforms. I oversaw the global messaging operations for world-renowned technology companies, ensuring optimal performance and customer satisfaction. 
       </p>
+      <br />
+      <div className="pl-8">
+        <ul className="list-disc list-inside">
+          <li>Managed global messaging operations, successfully handling billions of worldwide transactions. This role involved ensuring the seamless delivery of every text message, which significantly improved our client's operational efficiency and user experience.</li>
+          <li>Collaborated with the Data Engineering team to build a robust and innovative data lake infrastructure using advanced technologies like Parquet, S3, Hive, and Presto. This strategic project effectively managed the enormous volume of text message data, demonstrating the importance of efficiency and accuracy in maintaining data value.</li>
+       </ul>
+      </div>
+      </div>
     ),
   },
   {
@@ -392,10 +401,18 @@ export const experience: TimelineItem[] = [
     location: 'Spearhead Capital Management, LLC',
     title: 'Owner, Quantitative Analyst, Financial Advisor',
     content: (
+      <div>
       <p>
-        Managed a diverse role encompassing quantitative analysis, software engineering, data engineering, and financial advising. 
-        Developed various tools and strategies for data collection, storage, and analysis, contributing to the firm's financial decision-making.
+        Founded and managed a boutique investment firm where I harnessed my expertise in data-driven solutions and quantitative analysis to bring value to the financial markets. I developed novel tools for derivative pricing and risk hedging, thereby fundamentally transforming the approach to investment.
       </p>
+      <br />
+      <div className="pl-8">
+        <ul className="list-disc list-inside">
+          <li>Developed automated workflows for Monte Carlo Simulations and built tools for mass valuation of options using the Black-Scholes formula. This unprecedented move not only streamlined operations but also increased accuracy and efficiency in option pricing and risk hedging.</li>
+          <li>Developed a fully automated data pipeline, integrating all index/equity derivative trades on every US exchange along with other crucial market data. Combined with data aggregation and visualization, this sophisticated infrastructure brought transparency to analysis and enhanced decision-making capabilities.</li>
+       </ul>
+      </div>
+      </div>
     ),
   },
   {
@@ -403,10 +420,18 @@ export const experience: TimelineItem[] = [
     location: 'Tableau Software',
     title: 'Manager, Software Engineering',
     content: (
+      <div>
       <p>
-        Progressed through various roles in this leading business intelligence and data analytics software company. 
-        Led technical troubleshooting efforts for the world's largest analytics platforms and managed relationships with high-profile stakeholders.
+      I excelled in various roles of increasing responsibility within the support and engineering domains. My journey began as a Technical Support Engineer, progressing to a Technical Account Manager, followed by a Manager of Technical Account Management, and culminated as the Manager of Software Engineering.
       </p>
+      <br />
+      <div className="pl-8">
+        <ul className="list-disc list-inside">
+          <li>Led and managed teams ranging from 10 to 13 members across different roles, driving significant enhancements in defect triage, resolution, and product support. Championed the adoption of Scrum methodology and the development of innovative solutions, leading to improvements in operational efficiency, cost savings, and customer service.</li>
+          <li>Excelled in customer-centric roles, delivering white-glove service to large enterprise customers and customizing solutions to meet unique needs. Achieved high customer satisfaction and renewal rates.</li>
+       </ul>
+      </div>
+      </div>
     ),
   },
   {
@@ -414,10 +439,18 @@ export const experience: TimelineItem[] = [
     location: 'Scottrade, Inc.',
     title: 'Stockbroker',
     content: (
+      <div>
       <p>
-        Demonstrated expertise in financial regulations, securities, and ethical practices as a licensed stockbroker. 
-        Specialized in options trading, placing large trades for customers with a focus on speed and accuracy.
+      Within a small team setting, I managed a multitude of facets of the brokerage and maintained over 15,000 accounts.
       </p>
+      <br />
+      <div className="pl-8">
+        <ul className="list-disc list-inside">
+          <li>Acquired FINRA Series 7 and Series 63 licenses, underlining my mastery of financial regulations, securities, and ethical practices. </li>
+          <li>Utilized my reputation as a proficient professional in options trading to execute high-volume trades for clients, while also educating them about options trading. This superior service led to enhanced client retention and increased brokerage assets.</li>
+       </ul>
+      </div>
+      </div>
     ),
   },
 ];
@@ -457,6 +490,11 @@ export const testimonial: TestimonialSection = {
       name: 'Luke Watkins (Senior Technical Account Manager)',
       text: 'What makes Daniel standout is his data driven and "back to fundamentals" style of working, and is a leader that inspires through action. He is highly technical leader in the data/AI/ML domain paired with a strong business & people mindset.',
       image: 'testimonialimages/luke.jpg',
+    },
+    {
+      name: 'JB Oh (Technical Account Manager)',
+      text: `Beyond his technical skills and leadership abilities, Dan's interpersonal skills made him a pleasure to work with. He fostered a collaborative and inclusive environment, encouraging open communication and actively seeking input from team members.`,
+      image: 'testimonialimages/jb.jpg',
     },
   ],
 };
