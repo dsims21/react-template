@@ -463,7 +463,7 @@ export const testimonial: TestimonialSection = {
   testimonials: [
     {
       name: 'Chris Ghyzel (Technical Account Manager)',
-      text: 'Daniel is among the smartest and most active managers I have had. He really challenged me to think about the way I work. Our team always performed consistently well because he was engaged with us. In doing so he brought us to the highest level of performance: creativity, which is something truly rare.',
+      text: `Daniel is among the smartest and most active managers I have had. He really challenged me to think about the way I work. Our team always performed consistently well because he was engaged with us. In doing so he brought us to the highest level of performance: creativity, which is something truly rare.`,
       image: 'testimonialimages/chris.jpg',
     },
     {
@@ -483,7 +483,7 @@ export const testimonial: TestimonialSection = {
     },
     {
       name: 'Kevin Haley (Product Manager)',
-      text: 'Daniel is extremely reliable and trustworthy, and I knew that any project with him on it would be driven to completion and be successful. Not only is he a do-er, but he also fosters a fantastic work environment.',
+      text: `Daniel is extremely reliable and trustworthy, and I knew that any project with him on it would be driven to completion and be successful. Not only is he a do-er, but he also fosters a fantastic work environment.`,
       image: 'testimonialimages/kevin.jpg',
     },
     {
@@ -493,7 +493,7 @@ export const testimonial: TestimonialSection = {
     },
     {
       name: 'Luke Watkins (Senior Technical Account Manager)',
-      text: 'What makes Daniel standout is his data driven and "back to fundamentals" style of working, and is a leader that inspires through action. He is highly technical leader in the data/AI/ML domain paired with a strong business & people mindset.',
+      text: `What makes Daniel standout is his data driven and "back to fundamentals" style of working, and is a leader that inspires through action. He is highly technical leader in the data/AI/ML domain paired with a strong business & people mindset.`,
       image: 'testimonialimages/luke.jpg',
     },
     {
