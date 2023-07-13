@@ -491,16 +491,16 @@ export const testimonial: TestimonialSection = {
       text: `What makes Daniel standout is his data driven and "back to fundamentals" style of working, and is a leader that inspires through action. He is highly technical leader in the data/AI/ML domain paired with a strong business & people mindset.`,
       image: 'testimonialimages/luke.jpg',
     },
-    {
-      name: 'Lexi Wilkins (Project Manager)',
-      text: `Daniel possess exceptional problem-solving skills and can approach complex situations with a calm and analytical mindset.`,
-      image: 'testimonialimages/lexi.jpg',
-    },
-    {
-      name: 'JB Oh (Technical Account Manager)',
-      text: `Beyond his technical skills and leadership abilities, Dan's interpersonal skills made him a pleasure to work with. He fostered a collaborative and inclusive environment, encouraging open communication and actively seeking input from team members.`,
-      image: 'testimonialimages/jb.jpg',
-    },
+    // {
+    //   name: 'Lexi Wilkins (Project Manager)',
+    //   text: `Daniel possess exceptional problem-solving skills and can approach complex situations with a calm and analytical mindset.`,
+    //   image: 'testimonialimages/lexi.jpg',
+    // },
+    // {
+    //   name: 'JB Oh (Technical Account Manager)',
+    //   text: `Beyond his technical skills and leadership abilities, Dan's interpersonal skills made him a pleasure to work with. He fostered a collaborative and inclusive environment, encouraging open communication and actively seeking input from team members.`,
+    //   image: 'testimonialimages/jb.jpg',
+    // },
   ],
 };
 
