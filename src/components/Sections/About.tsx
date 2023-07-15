@@ -38,6 +38,12 @@ const About: FC = memo(() => {
             // frameborder="0"
             width="1000"
           ></iframe> */}
+                <div className="relative overflow-hidden aspect-[3/5]">
+        <iframe 
+            src="https://cvquestionanswer.streamlit.app/?embed=true&embed_options=dark_theme" 
+            className="absolute inset-0 w-full h-full border-0"
+        ></iframe>
+      </div>
       </div>
     </Section>
   );

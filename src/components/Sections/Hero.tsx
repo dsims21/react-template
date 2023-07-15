@@ -50,7 +50,7 @@ const Hero: FC = memo(() => {
                     alt="ResumeGPT by Daniel Sims"
                     height={72}
                     layout="responsive"
-                    src="/publicimages/resumegpt4.png" 
+                    src="/publicimages/smallimage.png" 
                     width={950}
                   />
               </Link>
