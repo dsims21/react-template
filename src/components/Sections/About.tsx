@@ -40,7 +40,7 @@ const About: FC = memo(() => {
           ></iframe> */}
         
       </div>
-      <div className="relative overflow-hidden aspect-[3/5] md:aspect-[16/9] top-6">
+      <div className="relative overflow-hidden aspect-[3/6] md:aspect-[16/9] top-6">
         <iframe 
             className="absolute inset-0 w-full h-full border-0"
             src="https://cvquestionanswer.streamlit.app/?embed=true&embed_options=dark_theme" 
