@@ -44,7 +44,7 @@ import {
  * Page meta data
  */
 export const homePageMeta: HomepageMeta = {
-  title: `Daniel Sims - Data First`,
+  title: `Daniel Sims`,
   description: "Daniel Sims' CV website",
 };
 
