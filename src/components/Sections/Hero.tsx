@@ -44,7 +44,7 @@ const Hero: FC = memo(() => {
                 </a>
               ))}
             </div>
-            <div className="relative inset-x-0 flex justify-center rounded-lg overflow-hidden">
+            {/* <div className="relative inset-x-0 flex justify-center rounded-lg overflow-hidden">
               <Link href='https://cvquestionanswer.streamlit.app/'> 
                   <Image
                     alt="ResumeGPT by Daniel Sims"
@@ -54,7 +54,7 @@ const Hero: FC = memo(() => {
                     width={950}
                   />
               </Link>
-            </div>
+            </div> */}
           </div>
         </div>
         <div className="absolute inset-x-0 bottom-6 flex justify-center">
