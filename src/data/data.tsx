@@ -79,7 +79,7 @@ export const heroData: Hero = {
           My career has taken me from managing diverse teams and high-profile customer accounts to founding and running a data-driven investment firm. With each step, I've grown and adapted, proving my ability to drive success in varied contexts.
       </p>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
-          I invite you to explore my professional journey. You're welcome to share this page, download my resume, and delve deeper into my career via ResumeGPT, a bespoke tool developed to facilitate interactive exploration of my professional experiences and competencies.
+          I invite you to explore my professional journey. You're welcome to share this page, download my resume, and delve deeper into my career via <strong className="text-stone-100">ResumeGPT</strong>, a tool I developed to facilitate interactive exploration of my professional experiences and competencies.
       </p>
     </>
   ),
