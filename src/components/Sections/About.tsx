@@ -38,12 +38,13 @@ const About: FC = memo(() => {
             // frameborder="0"
             width="1000"
           ></iframe> */}
-                <div className="relative overflow-hidden aspect-[3/5]">
-        <iframe 
-            src="https://cvquestionanswer.streamlit.app/?embed=true&embed_options=dark_theme" 
-            className="absolute inset-0 w-full h-full border-0"
-        ></iframe>
+        
       </div>
+      <div className="relative overflow-hidden aspect-[3/5] md:aspect-[16/9] top-6">
+        <iframe 
+            className="absolute inset-0 w-full h-full border-0"
+            src="https://cvquestionanswer.streamlit.app/?embed=true&embed_options=dark_theme" 
+        ></iframe>
       </div>
     </Section>
   );
