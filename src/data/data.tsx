@@ -76,7 +76,7 @@ export const heroData: Hero = {
           Hi! I'm <strong className="text-stone-100">Daniel Sims</strong>. Renowned for my strong technological insight and leadership capabilities, I've built a distinguished career around harnessing complex technology and fostering innovation.
       </p>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
-          My career has taken me from managing diverse teams and high-profile customer accounts to founding and running a data-driven investment firm. With each step, I've grown and adapted, proving my ability to drive success in varied contexts.
+          With each step in my career, I've grown and adapted, proving my ability to drive success in varied contexts.
       </p>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
           You're welcome to share this page, download my resume, and delve deeper into my career via <strong className="text-stone-100">ResumeGPT</strong>, a tool I developed to facilitate interactive exploration of my professional experiences and competencies.
