@@ -470,19 +470,24 @@ export const testimonial: TestimonialSection = {
       image: 'testimonialimages/justin.jpg',
     },
     {
+      name: 'Sejin Mong (Director, Customer Success)',
+      text: `Daniel cares deeply about the team members he manages and mentors. He wants to see his team members succeed, which is a quality that his direct reports could feel daily in their work alongside him.`,
+      image: 'testimonialimages/sejin.jpg',
+    },
+    {
       name: 'Chris Ghyzel (Technical Account Manager)',
       text: `Daniel is among the smartest and most active managers I have had. He really challenged me to think about the way I work. Our team always performed consistently well because he was engaged with us. In doing so he brought us to the highest level of performance: creativity, which is something truly rare.`,
       image: 'testimonialimages/chris.jpg',
     },
     {
+      name: 'Jeff Lester (Team Lead, Principal Technical Support Engineer)',
+      text: `Dan's deep understanding of complex technical issues and his ability to find innovative solutions were instrumental in resolving challenges and meeting the needs of our clients. Beyond his technical acumen, Dan possesses a remarkable personality that makes him a pleasure to work with.`,
+      image: 'testimonialimages/jeff.jpg',
+    },
+    {
       name: 'Alex Albu (Director, Engineering)',
       text: `Daniel is a savvy technical leader who tackles challenging problems thinking out of the box. Always responsive and ready to engage. When working with my team, he always brought valuable insights, both technical and the customer's perspective.`,
       image: 'testimonialimages/alexalbu.jpg',
-    },
-    {
-      name: 'Sejin Mong (Director, Customer Success)',
-      text: `Daniel cares deeply about the team members he manages and mentors. He wants to see his team members succeed, which is a quality that his direct reports could feel daily in their work alongside him.`,
-      image: 'testimonialimages/sejin.jpg',
     },
     {
       name: 'Alex Lavoie (Technical Account Manager)',
