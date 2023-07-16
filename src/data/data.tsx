@@ -465,6 +465,11 @@ export const testimonial: TestimonialSection = {
   imageSrc: testimonialImage,
   testimonials: [
     {
+      name: 'Justin Borgman (CEO, Starburst Data)',
+      text: `I personally worked with Daniel on a few occasions and was always incredibly impressed by his advocacy for our customers and the level of ownership he exhibited.`,
+      image: 'testimonialimages/justin.jpg',
+    },
+    {
       name: 'Chris Ghyzel (Technical Account Manager)',
       text: `Daniel is among the smartest and most active managers I have had. He really challenged me to think about the way I work. Our team always performed consistently well because he was engaged with us. In doing so he brought us to the highest level of performance: creativity, which is something truly rare.`,
       image: 'testimonialimages/chris.jpg',
