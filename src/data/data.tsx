@@ -495,6 +495,11 @@ export const testimonial: TestimonialSection = {
       image: 'testimonialimages/alex.jpg',
     },
     {
+      name: 'Dan Codeluppi (Product Manager)',
+      text: `Daniel helped form my understanding of many key customer problems with a strong sense of the true customer need while understanding the engineering challenges required to address the needs. His influence has significantly contributed to Product and Engineering's success in creating a valuable product for our customers.`,
+      image: 'testimonialimages/dan.jpg',
+    },
+    {
       name: 'Kevin Haley (Product Manager)',
       text: `Daniel is extremely reliable and trustworthy, and I knew that any project with him on it would be driven to completion and be successful. Not only is he a do-er, but he also fosters a fantastic work environment.`,
       image: 'testimonialimages/kevin.jpg',
