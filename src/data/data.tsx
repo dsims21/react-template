@@ -485,15 +485,20 @@ export const testimonial: TestimonialSection = {
       image: 'testimonialimages/jeff.jpg',
     },
     {
+      name: 'Elisa La Roche (Director, Technical Support)',
+      text: `Daniel has an incredible customer focused approach to problem solving with a technical mindset making him an impactful contributor. Any Customer Success organization would be lucky to have him.`,
+      image: 'testimonialimages/elisa.jpg',
+    },
+    {
       name: 'Alex Albu (Director, Engineering)',
       text: `Daniel is a savvy technical leader who tackles challenging problems thinking out of the box. Always responsive and ready to engage. When working with my team, he always brought valuable insights, both technical and the customer's perspective.`,
       image: 'testimonialimages/alexalbu.jpg',
     },
-    {
-      name: 'Alex Lavoie (Technical Account Manager)',
-      text: `It is not often you closely collaborate with someone whose talents span so many areas. Technical, analytical, tactical. That's just the start.`,
-      image: 'testimonialimages/alex.jpg',
-    },
+    // {
+    //   name: 'Alex Lavoie (Technical Account Manager)',
+    //   text: `It is not often you closely collaborate with someone whose talents span so many areas. Technical, analytical, tactical. That's just the start.`,
+    //   image: 'testimonialimages/alex.jpg',
+    // },
     {
       name: 'Dan Codeluppi (Product Manager)',
       text: `Daniel helped form my understanding of many key customer problems with a strong sense of the true customer need while understanding the engineering challenges required to address the needs. His influence has significantly contributed to Product and Engineering's success in creating a valuable product for our customers.`,
