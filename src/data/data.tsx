@@ -314,6 +314,27 @@ export const education: TimelineItem[] = [
 
 export const experience: TimelineItem[] = [
   {
+    date: 'September 2023 - Present',	
+    location: 'ServiceNow Cloud Observability',	
+    title: 'Senior Technical Account Manager',	
+    content: (
+      <div>
+      <p>
+        At ServiceNow Cloud Observability, a pioneer in delivering groundbreaking telemetry solutions vital for optimizing both cloud-native and monolithic applications, I hold a pivotal role as a Technical Account Manager. My role encompasses working closely with clients to understand their telemetry needs, ensuring that our platform seamlessly integrates with their applications, and provides invaluable insights for system analysis and data-driven strategies essential for business growth.
+      </p>
+      <br />
+      <div className="pl-8">
+        <ul className="list-disc list-inside">
+          <li>Initiate and uphold effective communication channels between clients, internal teams, and stakeholders, ensuring a coherent understanding of client objectives, and facilitating collaborative efforts to meet and exceed those objectives.</li>
+          <li>Engage in strategic discussions with clients to understand and anticipate their telemetry and observability needs, ensuring that our solutions continually evolve to meet the changing landscape of their operational requirements.</li>
+          <li>Drive digital transformation initiatives within client organizations by leveraging the unparalleled insights provided by our telemetry platform, thereby fostering a culture of data-centric intelligence pivotal for their success.</li>
+          <li>Collaborate closely with the development teams to translate client feedback into actionable product enhancements, ensuring that ServiceNow Cloud Observability remains at the forefront of the telemetry solutions sector.</li>
+       </ul>
+      </div>
+      </div>
+    ),
+  },
+  {
     date: 'August 2022 - June 2023',	
     location: 'Starburst Data',	
     title: 'Manager, Technical Account Management',	
