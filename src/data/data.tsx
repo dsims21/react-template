@@ -110,7 +110,7 @@ export const aboutData: About = {
     // {label: 'Country', text: 'USA', Icon: FlagIcon},
     {label: 'Interests', text: 'Artificial Intelligence, Virtual Reality', Icon: SparklesIcon},
     {label: 'Education', text: 'University of Washington', Icon: AcademicCapIcon},
-    {label: 'Employment', text: 'Starburst Data, OpenMarket, Tableau', Icon: BuildingOffice2Icon},
+    {label: 'Employment', text: 'ServiceNow, Starburst Data, Tableau', Icon: BuildingOffice2Icon},
   ],
 };
 
