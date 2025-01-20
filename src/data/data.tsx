@@ -314,7 +314,31 @@ export const education: TimelineItem[] = [
 
 export const experience: TimelineItem[] = [
   {
-    date: 'September 2023 - Present',	
+    date: 'December 2024 - Present',
+    location: 'ServiceNow',
+    title: 'Product Innovation Architect',
+    content: (
+      <div>
+        <p>
+          At ServiceNow, a global leader in innovative cloud-based solutions and intelligent technology, I serve as a Product Innovation Architect on the ITOM Product Business Unit team. In this role, I help customers adopt cutting-edge products, such as Agentic AI, Observability, and Predictive AIOps, empowering them to realize the full potential of our newest ITOM innovations. My work bridges technical implementation and strategic positioning, ensuring customers achieve measurable success.
+        </p>
+        <br />
+        <div className="pl-8">
+          <ul className="list-disc list-inside">
+            <li>Act as a technical and domain expert, aligning solutions with customer challenges through discovery workshops and product demonstrations.</li>
+            <li>Lead implementation of ServiceNow’s latest ITOM products in production environments, helping customers realize value and commit to success stories.</li>
+            <li>Collaborate with Product Management, Solution Sales, and the executive team to ensure alignment between customer needs and product innovation.</li>
+            <li>Provide feedback to Product Management to enhance product features and address real-world challenges experienced by customers.</li>
+            <li>Contribute to thought leadership by creating, sharing, and teaching best practices and reusable assets to enhance team efficiency and customer outcomes.</li>
+            <li>Stay ahead of competitive analysis, market trends, and technology differentiation to position ServiceNow as a leader in AI-driven ITOM solutions.</li>
+            <li>Support marketing events, including executive briefings, trade shows, and conferences, showcasing success stories and ServiceNow’s innovations.</li>
+          </ul>
+        </div>
+      </div>
+    ),
+  },
+  {
+    date: 'September 2023 - December 2024',	
     location: 'ServiceNow Cloud Observability',	
     title: 'Senior Technical Account Manager',	
     content: (
