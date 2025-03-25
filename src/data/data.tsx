@@ -78,9 +78,9 @@ export const heroData: Hero = {
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
           With each step in my career, I've grown and adapted, proving my ability to drive success in varied contexts.
       </p>
-      <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
+      {/* <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
           You're welcome to share this page, download my resume, and delve deeper into my career via <strong className="text-stone-100">ResumeGPT</strong>, a tool I developed to facilitate interactive exploration of my professional experiences and competencies.
-      </p>
+      </p> */}
     </>
   ),
   actions: [
