@@ -299,10 +299,18 @@ export const portfolioItems: PortfolioItem[] = [
  */
 export const education: TimelineItem[] = [
   {
+    date: 'Expected 2026',
+    location: 'Univerity of San Diego',
+    title: 'Master of Science in Applied Artificial Intelligence',
+    content: <p>I have a deep-rooted passion for artificial intelligence and firmly believe it represents the 
+    future of technology. Pursuing my master’s degree in this field is the natural progression of 
+    a career spent bridging advanced technologies with real-world impact.</p>,
+  },
+  {
     date: 'June 2015',
     location: 'Univerity of Washington',
     title: 'Bachelor of Arts in Business Administration',
-    content: <p>In my academic journey, I explored a broad spectrum of business subjects that have become a cornerstone in my tech-oriented career. From Business Finance to E-Marketing and International Trade, my foundational knowledge has been integral in navigating the dynamic landscape of the tech industry.</p>,
+    content: <p>I explored a broad spectrum of business subjects that have become a cornerstone in my tech-oriented career. From Business Finance to E-Marketing and International Trade, my foundational knowledge has been integral in navigating the dynamic landscape of the tech industry.</p>,
   },
   // {
   //   date: 'June 2013',
